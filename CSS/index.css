@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: beige;
+}
+header {
+	width: 100%;
+	height: 12vh;
+	border-style: inset;
+}
+.Шапка-текст {
+	display: inline;
+	position: absolute;
+	color: rgb(0, 0, 0);
+	margin-top: 2vh;
+	margin-left: 45%;
+	font-family: Monotype Corsiva Regular;
+}
+.Шапка-ссылки {
+	margin-top: 6vh;
+	position: absolute;
+	margin-left: 80%;
+}
+.Шапка-ссылки li {
+	position: relative;
+	display: inline;
+	padding: 20px;
+}
+.Шапка-ссылки li a {
+	color: black;
+	text-decoration: none;
+}
+.Шапка-ссылки li a:hover {
+	color: rgb(77, 0, 150);
+}
+.Font-main {
+	background-image: none;
+	display: block;
+	position: absolute;
+	width: 1872px;
+	height: 900px;
+}
+.text-main1 {
+	margin-top: 80px;
+	margin-left: 42%;
+	width: 320px;
+	position: absolute;
+	color: beige;
+	background-color: rgba(73, 0, 243, 0.438);
+	font-family: Monotype Corsiva Regular;
+	border-style: groove;
+	border-radius: 5px;
+	font-size: 23px;
+}
+.text-main2 {
+	position: absolute;
+	color: blanchedalmond;
+	background-color: rgba(73, 0, 243, 0.438);
+	border-style: groove;
+	border-radius: 5px;
+	margin-top: 400px;
+	margin-left: 34%;
+	width: 600px;
+	font-size: 22px;
+	font-family: Monotype Corsiva Regular;
+}
+.product {
+	display: block;
+	position: absolute;
+	background-color: beige;
+	width: 100%;
+	height: 500px;
+	margin-top: 900px;
+}
+.product h1 {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	position: absolute;
+	font-family: Monotype Corsiva Regular;
+	margin-left: 47%;
+	margin-top: 20px;
+}
+.img-product1 {
+	display: block;
+	position: absolute;
+	margin-top: 90px;
+	border-style: groove;
+	border-color: brown;
+	margin-left: 50px;
+	border-radius: 10px;
+}
+.Выпечка-ссылка {
+	display: inline;
+	position: absolute;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+	margin-top: 400px;
+	margin-left: 270px;
+}
+.Выпечка-ссылка a {
+	color: black;
+	text-decoration: none;
+	font-family: Monotype Corsiva Regular;
+}
+.Выпечка-ссылка a:hover {
+	font-size: 21px;
+	color: crimson;
+}
+.img-product2 {
+	display: block;
+	position: absolute;
+	height: 288px;
+	margin-left: 700px;
+	margin-top: 90px;
+	border-style: groove;
+	border-color: brown;
+	border-radius: 10px;
+}
+.Десерты {
+	display: inline;
+	position: absolute;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+	margin-top: 400px;
+	margin-left: 900px;
+	color: black;
+	font-family: Monotype Corsiva Regular;
+}
+.Десерты:hover {
+	font-size: 21px;
+	color: crimson;
+}
+.Хлеб {
+	display: inline;
+	position: absolute;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+	margin-top: 400px;
+	margin-left: 1500px;
+	color: black;
+	font-family: Monotype Corsiva Regular;
+}
+.Хлеб:hover {
+	font-size: 21px;
+	color: crimson;
+}
+.img-product3 {
+	display: block;
+	position: absolute;
+	height: 288px;
+	margin-left: 1270px;
+	margin-top: 90px;
+	border-style: groove;
+	border-color: brown;
+	border-radius: 10px;
+}
+footer {
+	background-color: rgba(0, 0, 0, 0.774);
+	width: 100%;
+	height: 650px;
+	margin-top: 1400px;
+}
+.footer-text1 {
+	width: 300px;
+	color: beige;
+	display: block;
+	position: absolute;
+	margin-left: 1400px;
+	margin-top: 20px;
+	font-size: 25px;
+	text-align: center;
+	font-family: Monotype Corsiva Regular;
+}
+.footer-text2 {
+	width: 300px;
+	color: beige;
+	display: block;
+	position: absolute;
+	margin-left: 1400px;
+	margin-top: 350px;
+	font-size: 25px;
+	text-align: center;
+	font-family: Monotype Corsiva Regular;
+}
+.mailto {
+	text-decoration: none;
+	color: beige;
+	display: block;
+	position: absolute;
+	margin-left: 1530px;
+	margin-top: 390px;
+	font-size: 25px;
+	text-align: center;
+	font-family: Monotype Corsiva Regular;
+}
+.mailto:hover {
+	font-size: 26px;
+	color: crimson;
+}
+.footer-text3 {
+	color: beige;
+	display: block;
+	position: absolute;
+	margin-left: 1500px;
+	margin-top: 430px;
+	font-size: 25px;
+	text-align: center;
+	font-family: Monotype Corsiva Regular;
+}
